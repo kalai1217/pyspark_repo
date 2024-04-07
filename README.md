@@ -6,6 +6,10 @@
 
 ## Project_Structure
 
+ - **resources**
+
+     - `data` files that had been used in the assignments. 
+
  - **src**
  
      - `driver.py` contains function call.
