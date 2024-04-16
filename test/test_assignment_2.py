@@ -25,7 +25,7 @@ class TestAssignment2(unittest.TestCase):
         self.assertEqual(df.count(), len(test_credit_card_data))
 
     def test_create_df_csv(self):
-        path_csv = r"C:\Users\Basheer AhmedK\Desktop\Diggibyte\Pyspark\pyspark assignment\resources\credit_cards.csv"
+        path_csv = r"C:\Users\Kalai_Arasan_J\Desktop\Diggibyte\Pyspark\pyspark_assignment\resources\cred"
         credit_schema = StructType([
             StructField("card_number", StringType(), True)
         ])
@@ -42,8 +42,7 @@ class TestAssignment2(unittest.TestCase):
         self.assertEqual(df.collect(), expected_df.collect())
 
     def test_create_df_json(self):
-        # Assuming you have a JSON file named "test_data.json"
-        path_json = r"C:\Users\Basheer AhmedK\Desktop\Diggibyte\Pyspark\pyspark assignment\resources\credit_cards.json"
+        path_json = r"C:\Users\Kalai_Arasan_J\Desktop\Diggibyte\Pyspark\pyspark_assignment\resources\credit_cards.json"
         df = create_df_json(self.spark, path_json)
         test_credit_card_data = [("1234567891234567",),
                                  ("5678912345671234",),
