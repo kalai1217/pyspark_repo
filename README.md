@@ -29,7 +29,7 @@
 
 - `from pyspark.sql` import SparkSession, StructType, StructField, IntegerType, StringType`: Imports necessary classes for SparkSession and DataFrame creation.
 - `spark_session`: Function to create a SparkSession (assumed to be defined elsewhere).
-- `create_dataframe`: Function to create a DataFrame from data and schema (assumed to be defined elsewhere).
+- `create_dataframe`: Function to create a DataFrame from data and schema 
 - `filter`: Filters DataFrame rows based on a condition.
 - `col`: Refers to a DataFrame column by name.
 - `join`: Performs a join operation between two DataFrames.
